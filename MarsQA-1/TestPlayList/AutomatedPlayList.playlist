@@ -1,0 +1,50 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="MarsQA-1" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="MarsQA_1.Feature" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="SellerAddProfileDetailsFeature" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="MarsQA_1.Feature.SellerAddProfileDetailsFeature.AddALanguageWithALanguageNameAndALanguageLevelOptionOnMyProfilePage" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="AddALanguageWithALanguageNameAndALanguageLevelOptionOnMyProfilePage(&quot;English&quot;,&quot;Basic&quot;,&quot;English has been added to your languages&quot;,null)" />
+                        <Property Name="DisplayName" Value="AddALanguageWithALanguageNameAndALanguageLevelOptionOnMyProfilePage(&quot;French&quot;,&quot;Conversational&quot;,&quot;French has been added to your languages&quot;,null)" />
+                        <Property Name="DisplayName" Value="AddALanguageWithALanguageNameAndALanguageLevelOptionOnMyProfilePage(&quot;Spanish&quot;,&quot;Fluent&quot;,&quot;Spanish has been added to your languages&quot;,null)" />
+                        <Property Name="DisplayName" Value="AddALanguageWithALanguageNameAndALanguageLevelOptionOnMyProfilePage(&quot;Tamil&quot;,&quot;Native/Bilingual&quot;,&quot;Tamil has been added to your languages&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="MarsQA_1.Feature.SellerAddProfileDetailsFeature.ChangeMyAvailabilityWithSelectionOfAnAvailabilityOptionOnMyProfile" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ChangeMyAvailabilityWithSelectionOfAnAvailabilityOptionOnMyProfile(&quot;Part Time&quot;,null)" />
+                        <Property Name="DisplayName" Value="ChangeMyAvailabilityWithSelectionOfAnAvailabilityOptionOnMyProfile(&quot;Full Time&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="MarsQA_1.Feature.SellerAddProfileDetailsFeature.AddASkillWithASkillNameAndASkillLevelOptionOnMyProfilePage" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="AddASkillWithASkillNameAndASkillLevelOptionOnMyProfilePage(&quot;Java&quot;,&quot;Beginner&quot;,&quot;Java has been added to your skills&quot;,null)" />
+                        <Property Name="DisplayName" Value="AddASkillWithASkillNameAndASkillLevelOptionOnMyProfilePage(&quot;c#&quot;,&quot;Intermediate&quot;,&quot;c# has been added to your skills&quot;,null)" />
+                        <Property Name="DisplayName" Value="AddASkillWithASkillNameAndASkillLevelOptionOnMyProfilePage(&quot;@python&quot;,&quot;Expert&quot;,&quot;@python has been added to your skills&quot;,null)" />
+                        <Property Name="DisplayName" Value="AddASkillWithASkillNameAndASkillLevelOptionOnMyProfilePage(&quot;4Selenium&quot;,&quot;Expert&quot;,&quot;4Selenium has been added to your skills&quot;,null)" />
+                        <Property Name="DisplayName" Value="AddASkillWithASkillNameAndASkillLevelOptionOnMyProfilePage(&quot;Java8&quot;,&quot;Beginner&quot;,&quot;java8 has been added to your skills&quot;,null)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
